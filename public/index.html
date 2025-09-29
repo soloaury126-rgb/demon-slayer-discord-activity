@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Demon Slayer Quiz</title>
+  <script src="script.js" defer></script>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #111;
+      color: #eee;
+      text-align: center;
+      padding: 20px;
+    }
+    .question { font-size: 1.2rem; margin: 20px 0; }
+    .choices button {
+      display: block;
+      margin: 8px auto;
+      padding: 10px 20px;
+      background: #333;
+      border: none;
+      border-radius: 6px;
+      color: #fff;
+      cursor: pointer;
+    }
+    .choices button:hover { background: #555; }
+    #timer { margin: 20px; font-size: 1.1rem; color: #f66; }
+  </style>
+</head>
+<body>
+  <h1>Demon Slayer Quiz Activity</h1>
+  <div id="game">
+    <div id="timer"></div>
+    <div id="question" class="question"></div>
+    <div id="choices" class="choices"></div>
+  </div>
+</body>
+</html>
