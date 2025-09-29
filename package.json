@@ -1,0 +1,17 @@
+{
+  "name": "demon-slayer-activity",
+  "version": "1.0.0",
+  "description": "Discord Activity: quiz a tempo a tema Demon Slayer",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@octokit/rest": "^22.0.0",
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
